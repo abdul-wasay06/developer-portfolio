@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Johnathan Specter</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@200&family=Prata&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <nav id="navbar">
+        <div class="left">
+            <h3>Johnathan Specter</h3>
+        </div>
+        <div class="mid">
+            <a href="#">Articles</a>
+            <a href="#">Chats</a>
+            <a href="#">Awards</a>
+            <a href="#">About</a>
+        </div>
+        <div class="right">
+            <button>Get in touch</button>
+        </div>
+        <div class="hamburger" onclick="open_nav()">
+            <img src="/img/Hamburger Menu.svg" alt="">
+        </div>
+    </nav>
+    <section id="hamburger-nav" style="height: 0px;">
+        <div class="responsive-nav">
+            <div class="links">
+                <a href="#">Articles</a>
+                <a href="#">Chats</a>
+                <a href="#">Awards</a>
+                <a href="#">About</a>
+            </div>
+            <div class="btn">
+                <button>Get in touch</button>
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="home">
+            <div class="home-in">
+                <h1>Helping companies build better, scalable software.</h1>
+                <p>Award-winning web developer and author, with over 15+ years of working experience with Fortune 500
+                    companies like Apple, Google, Facebook, and more.</p>
+            </div>
+        </div>
+        <div class="logos">
+            <img src="/img/Walmart.svg" alt="">
+            <img src="/img/JP Morgan.svg" alt="">
+            <img src="/img/Visa.svg" alt="">
+            <img src="/img/Tinder.svg" alt="">
+            <img src="/img/Samsung.svg" alt="">
+            <img src="/img/Verizon.svg" alt="">
+        </div>
+        <div class="container">
+            <div class="box-1 box">
+                <img src="/img/Spense.png" alt="">
+                <h3>Spense.com</h3>
+                <p>Rethinking the way writers get paid, an open-source platform designed to help writers focus more on
+                    writing, and less on when and how they'll get paid. Project in collaboration with Codewell.cc</p>
+            </div>
+            <div class="box-2 box">
+                <img src="/img/YelpCamp.png" alt="">
+                <h3>YelpCamp.com</h3>
+                <p>Allowing backpack travellers to perfectly plan their trip through an open-source platform similar to
+                    TripAdvisor. With over 1m MAU, YelpCamp has been the crowd's favourite in 2021.</p>
+            </div>
+        </div>
+        <div class="container-2">
+            <div class="container-2-in">
+                <div class="box-1 box">
+                    <h2>A co-founder at one of the world's largest communities.</h2>
+                    <p>The combined experience I have working at the top Fortune 500 companies has allowed me to develop
+                        a skillset that helps me in not just development, but in every aspect of any business.</p>
+                    <p>I'm proud to announce that I am now working at one of the world's largest communities teaching
+                        young minds about how to sell yourself as a developer and open them to a whole new world of
+                        opportunities.</p>
+                </div>
+                <div class="box-2 box">
+                    <p>As a developer, you have everything available to you and all that's holding you back is yourself.
+                    </p>
+                    <p>A quote I live perfectly illustrates what I mean.</p>
+                    <p>"How big would you dream, if you knew you wouldn't fail?"</p>
+                    <p>You've already gone through the hardest parts being a developer. it's time to elevate your skills
+                        and
+                        become a leader in something you're passionate about.</p>
+                    <p>I'm happy to chat over coffee some time about how I can help your company.</p>
+                </div>
+            </div>
+        </div>
+        <div class="get-in-touch">
+            <div class="get-in">
+                <h2>Interested in working with me?</h2>
+                <p>I'm active on all social media platforms listed below, but you can also send me an email and I will
+                    get
+                    back to you within 24-48 hours.</p>
+                <button>Get in touch</button>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="footer">
+            <div class="name">
+                <h4>Johnathan Specter</h4>
+            </div>
+            <div class="social">
+                <a href=""><img src="/img/Twitter.svg" alt=""></a>
+                <a href=""><img src="/img/LinkedIn.svg" alt=""></a>
+                <a href=""><img src="/img/Github.svg" alt=""></a>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        var nav = document.getElementById("hamburger-nav")
+        function open_nav() {
+            if (nav.style.height === "0px") {
+                nav.style.height = "100%";
+            } else {
+                nav.style.height = "0px";
+            }
+        }
+    </script>
+
+</body>
+
+</html>

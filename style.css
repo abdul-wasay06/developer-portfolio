@@ -1,0 +1,393 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #0a0a0b;
+    color: #ffffff;
+    margin: auto;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+button {
+    font-family: 'Prata', serif;
+    color: #ffffff;
+}
+
+p,
+a {
+    font-family: 'Inter', sans-serif;
+    color: #adadad;
+    font-weight: 600;
+    font-size: 1.05rem;
+    letter-spacing: 0.4px;
+}
+
+/* Navbar */
+
+#navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 30px auto;
+    width: 85%;
+
+}
+
+#navbar .left {
+    font-size: 1.2rem;
+}
+
+#navbar .mid a,
+section .responsive-nav .links a {
+    text-decoration: none;
+    padding: 5px 14px;
+    margin: 2px;
+    font-size: 1.05rem;
+}
+
+#navbar .mid a:hover,
+section .responsive-nav .links a:hover {
+    color: #ffffff;
+    text-decoration: underline;
+}
+
+#navbar .right button,
+section .responsive-nav .btn button {
+    background-color: #fbe850;
+    color: #000000;
+    outline: none;
+    border: none;
+    padding: 10px 20px;
+    font-size: 0.9rem;
+    cursor: pointer;
+    font-weight: 600;
+}
+
+#navbar .right button:hover,
+section .responsive-nav .btn button:hover {
+    background-color: #ffe100;
+}
+
+#navbar .hamburger {
+    display: none;
+    padding: 10px;
+    border-radius: 25px;
+}
+
+#navbar .hamburger:active {
+    background-color: #2e3038;
+}
+
+/* Responsive navbar */
+
+#hamburger-nav {
+    overflow-y: hidden;
+}
+
+#hamburger-nav .responsive-nav {
+    width: 85%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#hamburger-nav .responsive-nav .links {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#hamburger-nav .responsive-nav .links a {
+    padding: 10px 0px;
+}
+
+#hamburger-nav .responsive-nav .btn button {
+    margin: 10px 0px;
+}
+
+
+/* Main content */
+
+section .home {
+    width: 85%;
+    margin: 60px auto;
+}
+
+section .home .home-in {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 60%;
+}
+
+section .home h1 {
+    font-size: 3rem;
+    padding: 30px 0px;
+    font-weight: 500;
+    letter-spacing: 1px;
+}
+
+section .logos {
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto;
+    margin: 30px auto;
+    width: 85%;
+}
+
+section .logos img {
+    height: 25px;
+    margin: auto;
+    padding: 15px;
+}
+
+section .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 40px 0px;
+    margin: 10px auto;
+    width: 85%;
+}
+
+section .container .box-1 {
+    padding: 0px 25px 0px 0px;
+}
+
+section .container .box-2 {
+    padding: 0px 0px 0px 25px;
+}
+
+section .container .box img {
+    width: 100%;
+    height: 300px;
+}
+
+section .container .box h3 {
+    font-size: 1.6rem;
+    font-weight: 500;
+    margin: 15px 0px;
+}
+
+section .container .box p {
+    margin: 10px 0px;
+    font-weight: 600;
+}
+
+section .container-2 {
+    background-color: #2e3038;
+    padding: 40px 0px;
+    margin: 10px 0px;
+    width: 100%;
+}
+
+section .container-2 .container-2-in {
+    width: 85%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+section .container-2 .box-1 {
+    padding: 0px 25px 0px 0px;
+    margin: 10px 0px;
+    width: 100%;
+}
+
+section .container-2 .box-2 {
+    padding: 0px 0px 0px 25px;
+    margin: 10px 0px;
+    width: 100%;
+}
+
+section .container-2 .box h2 {
+    padding: 20px 0px;
+    font-size: 2rem;
+}
+
+section .container-2 .box p {
+    padding: 10px 0px;
+}
+
+section .get-in-touch {
+    width: 85%;
+    margin: 40px auto;
+
+}
+
+section .get-in-touch .get-in {
+    width: 48%;
+    padding: 0px 25px 0px 0px;
+}
+
+.get-in-touch h2 {
+    padding: 15px 0px;
+    font-size: 2rem;
+}
+
+.get-in-touch p {
+    padding: 6px 0px;
+}
+
+.get-in-touch button {
+    background-color: #fbe850;
+    color: #000000;
+    outline: none;
+    border: none;
+    padding: 10px 20px;
+    font-size: 0.9rem;
+    cursor: pointer;
+    font-weight: 600;
+    margin: 20px 0px;
+}
+
+.get-in-touch button:hover {
+    background-color: #ffe100;
+}
+
+footer {
+    width: 100%;
+    padding: 15px 0px;
+    background-color: #2e3038;
+}
+
+/* Footer */
+
+footer .footer {
+    width: 85%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: auto;
+}
+
+footer .name h3 {
+    font-size: 1.5rem;
+}
+
+footer .social img {
+    padding: 5px;
+}
+
+footer .social img:hover {
+    opacity: 0.5;
+}
+
+@media screen and (max-width: 1000px) {
+    section .home .home-in {
+        width: 100%;
+    }
+
+    section .logos {
+        grid-template-columns: auto auto auto;
+    }
+
+    section .container {
+        flex-direction: column;
+    }
+
+    section .container .box {
+        padding: 20px 0px;
+    }
+
+    section .container .box img {
+        height: 360px;
+    }
+
+    section .container-2 .container-2-in {
+        flex-direction: column;
+    }
+
+    section .container-2 .container-2-in .box {
+        padding: 0px;
+    }
+
+    section .container-2 .box-1 p:nth-child(3) {
+        padding: 10px 0px 0px 0px;
+    }
+
+    section .container-2 .box-2 p:nth-child(1) {
+        padding: 0px 0px 10px 0px;
+    }
+
+    section .get-in-touch .get-in {
+        width: 80%;
+        padding: 0px;
+    }
+}
+
+@media screen and (max-width: 850px) {
+
+    #navbar .mid,
+    #navbar .right {
+        display: none;
+    }
+
+    #navbar .hamburger {
+        display: block;
+    }
+}
+
+@media screen and (max-width: 560px) {
+    section .logos {
+        grid-template-columns: auto auto;
+    }
+
+    section .logos img {
+        padding: 15px 0px;
+    }
+
+    section .container .box img {
+        height: 260px;
+    }
+
+    section .get-in-touch .get-in {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 470px) {
+
+    p,
+    a {
+        font-size: 0.9rem;
+    }
+
+    section .home {
+        margin: 30px auto;
+    }
+
+
+
+    section .home h1 {
+        font-size: 2rem;
+    }
+
+    section .logos img {
+        height: 18px;
+    }
+
+    section .container .box img {
+        height: 170px;
+    }
+
+    section .container .box h3 {
+        font-size: 1.6rem;
+    }
+
+    section .container-2 .box h2 {
+        font-size: 1.6rem;
+    }
+
+    .get-in-touch h2 {
+        font-size: 1.6rem;
+    }
+}
